@@ -1,0 +1,110 @@
+/*Acomodo el padding de tarjetas del index*/
+/*termino de el custom de las tarjetas*/
+/* Armo el contacto*/
+/*Fin del contacto*/
+/*Columanas que estan en nosotros*/
+/*Fin Columanas que estan en nosotros*/
+/*MODIFICACIONES EN LAS CARDS - SE CAMBIA EL TAMAÑO DE LA IMAGEN Y SE QUITAN LOS BORDES*/
+div {
+	font-family: 'Exo', sans-serif;
+	position: inside;
+}
+h1 {
+	font-family: 'Exo', sans-serif;
+	position: center;
+}
+#vistaTarjeta {
+	.tarjeta {
+		padding: 20px;
+	}
+}
+.banner {
+	background-image: url("../media/banner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 40vh;
+}
+.elFooter {
+	background-color: black;
+	background-position: flex;
+	color: white;
+	height: 10vh;
+	display: block;
+	bottom: 0;
+}
+.elTexto {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.contenedor {
+	background-color: black;
+	width: 400px;
+	padding: 30px;
+	margin: auto;
+	margin-top: 100px;
+	border-radius: 4px;
+	color: white;
+	box-shadow: 7px 13px 37px #000;
+	h1 {
+		font-size: 24px;
+		margin-top: 15px;
+		margin-bottom: 10px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+}
+.control {
+	width: 100%;
+	background-color: #24303c;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 20px;
+	border: 1px solid #1f53c5;
+	font-size: 18px;
+	&:focus {
+		height: 60px;
+	}
+}
+.boton {
+	width: 100%;
+	height: 45px;
+	margin-top: 15px;
+	border-radius: 4px;
+	border: none;
+	color: white;
+	text-transform: uppercase;
+	background: rgb(0,0,0);
+	background: linear-gradient(127deg, rgba(0,0,0,1) 8%, rgba(112,1,4,1) 65%, rgba(252,222,69,1) 100%);
+	font-size: 20px;
+	&:hover {
+		cursor: pointer;
+		transform: translateY(-3px);
+		background: rgb(0,0,0);
+		background: linear-gradient(127deg, rgba(0,0,0,1) 8%, rgba(112,1,4,1) 65%, rgba(252,222,69,1) 100%);
+	}
+	&:active {
+		transform: translateY(3px);
+	}
+}
+.grid {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	gap: 1em;
+	div {
+		font-family: 'Exo', sans-serif;
+		position: inside;
+		padding: 1em;
+		width: 400px;
+	}
+}
+.imagenCard {
+	width: 150px;
+	height: 150px;
+	align-self: center;
+}
+.sinBordes {
+	border: 0 !important;
+}
